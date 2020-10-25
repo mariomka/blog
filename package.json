@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "mariomka's blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Mario Juárez",
+    "email": "mario@mjp.one"
+  },
+  "repository": "https://github.com/mariomka/blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.2",
+    "vuepress": "^1.5.3"
+  }
+}
