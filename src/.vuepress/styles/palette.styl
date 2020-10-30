@@ -1,10 +1,32 @@
 /**
  * Custom palette here.
  *
- * ref：https://v1.vuepress.vuejs.org/zh/config/#palette-styl
+ * ref：https://vuepress-theme-blog.ulivz.com/config/palette.html
  */
 
-$accentColor = #3eaf7c
+// colors
+$accentColor = #1f436e
+
 $textColor = #2c3e50
-$borderColor = #eaecef
-$codeBgColor = #282c34
+$darkTextColor = #333
+
+$borderColor = rgba($darkTextColor,.05)
+$darkBorderColor = $darkTextColor
+
+$codeBgColor = $darkTextColor
+
+$bgColor = #fff
+$headerBgColor = $bgColor;
+
+$footerBgColor = #fff
+$footerColor = $darkTextColor
+
+$newsletterBgColor = #f8f8f8
+
+// layout
+$contentWidth = 740px
+
+// responsive breakpoints
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
