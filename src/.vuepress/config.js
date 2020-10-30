@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Blog',
+  title: 'mjp.one',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -31,17 +31,61 @@ module.exports = {
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * ref：https://vuepress-theme-blog.ulivz.com/config/
    */
   themeConfig: {
-    // Please keep looking down to see the available options.
+    dateFormat: 'DD-MM-YYYY',
+
+    nav: [
+      {
+        text: 'Blog',
+        link: '/'
+      },
+      {
+        text: 'Twitter',
+        link: 'https://twitter.com/mariomka'
+      },
+      {
+        text: 'Github',
+        link: 'https://github.com/mariomka'
+      }
+    ],
+
+    footer: {
+      copyright: [
+        {
+          text: 'Copyright © 2020-presente Mario Juárez',
+          link: '/'
+        }
+      ]
+    },
+
+    globalPagination: {
+      prevText: 'Página anterior',
+      nextText: 'Página siguiente',
+      lengthPerPage: '5'
+    },
+
+    sitemap: {
+      hostname: 'https://mjp.one'
+    },
+
+    feed: {
+      canonical_base: 'https://mjp.one',
+      rss: true,
+      atom: true,
+      json: false
+    }
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom'
-  ]
+  plugins: [],
+
+  locales: {
+    '/': {
+      lang: 'es-ES'
+    }
+  }
 }
