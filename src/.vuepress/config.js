@@ -84,7 +84,14 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [],
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-181810260-1'
+      }
+    ]
+  ],
 
   locales: {
     '/': {
