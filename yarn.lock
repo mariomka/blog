@@ -933,9 +933,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "14.14.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.2.tgz#d25295f9e4ca5989a2c610754dc02a9721235eeb"
-  integrity sha512-jeYJU2kl7hL9U5xuI/BhKPZ4vqGM/OmK6whiFAXVhlstzZhVamWhDSmHyGLIp+RVyuF9/d0dqr2P85aFj4BvJg==
+  version "14.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.6.tgz#146d3da57b3c636cc0d1769396ce1cfa8991147f"
+  integrity sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
 
 "@types/q@^1.5.1":
   version "1.5.4"
@@ -1246,10 +1246,10 @@
     toml "^3.0.0"
     upath "^1.1.0"
 
-"@vuepress/theme-blog@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@vuepress/theme-blog/-/theme-blog-2.3.2.tgz#b3d2c43dd3f2542ccc9adb4fc557945d4c036f2b"
-  integrity sha512-568P2OZdeC5vdSWKSDCMMECWDUnT2HF9IIFne6xFPRBlLxQN56+vFOz1Wud2vkqG3S7Axr9uswf8yOCnuEzneA==
+"@vuepress/theme-blog@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@vuepress/theme-blog/-/theme-blog-2.3.3.tgz#de5fa960f4c0eac7a8bb18a0fb1829cfcfe963ba"
+  integrity sha512-t/xx/LmevJVxX8xeBE3FG6FrzBlT0t72K7yNNlrWoiNCHcPuXYSBUg2H933f3w+9qPB+YyxGmzwRVNBUSnzNdw==
   dependencies:
     "@vuepress/plugin-blog" "^1.9.2"
     "@vuepress/plugin-medium-zoom" "^1.5.4"
@@ -7936,9 +7936,9 @@ vuepress-plugin-disqus@^0.2.0:
     vue-disqus "^3.0.5"
 
 vuepress-plugin-feed@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-feed/-/vuepress-plugin-feed-0.1.8.tgz#134c69f98c71994d17f926e3c7c2ad006f573195"
-  integrity sha512-ZDJ2KTAxdeXiykBKOWTht4qleImaY9OEbm9cqQdc/54j0P45ax1PhJjsq5aTs3GcIE1nbZKLCd4fSzhRY6bijg==
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-feed/-/vuepress-plugin-feed-0.1.9.tgz#706fc381c1831c110d161b7e892057750c8904da"
+  integrity sha512-iOJkR7zPmJAX0TEVdxNsUT07xNQB6lZFpU7DqsYzO01FhaPkMOOVM5Vx5a/iOOuOggAeoI9H9yuah+cRmCImlw==
   dependencies:
     feed "2.0.4"
     lodash.defaultsdeep "4.6.1"

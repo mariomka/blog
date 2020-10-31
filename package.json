@@ -15,7 +15,7 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "@vuepress/theme-blog": "^2.3.2",
+    "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.5.3"
   }
 }
