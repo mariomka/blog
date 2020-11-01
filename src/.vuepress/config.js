@@ -78,6 +78,11 @@ module.exports = {
       rss: true,
       atom: true,
       json: false
+    },
+
+    comment: {
+      service: "disqus",
+      shortname: "mjp-one",
     }
   },
 
