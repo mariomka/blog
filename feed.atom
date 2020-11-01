@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mjp.one</id>
+    <title>mjp.one</title>
+    <updated>2020-11-01T17:34:09.259Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://mjp.one"/>
+    <link rel="self" href="https://mjp.one/feed.atom"/>
+    <subtitle>mariomka&apos;s blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Test post]]></title>
+        <id>https://mjp.one/2020/09/25/test-post/</id>
+        <link href="https://mjp.one/2020/09/25/test-post/">
+        </link>
+        <updated>2020-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a test post
+
+My content. ...]]></summary>
+    </entry>
+</feed>

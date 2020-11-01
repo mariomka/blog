@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>mjp.one</title>
+        <link>https://mjp.one</link>
+        <description>mariomka&apos;s blog</description>
+        <lastBuildDate>Sun, 01 Nov 2020 17:34:09 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://mjp.one/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Test post]]></title>
+            <link>https://mjp.one/2020/09/25/test-post/</link>
+            <guid>https://mjp.one/2020/09/25/test-post/</guid>
+            <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a test post
+
+My content. ...]]></description>
+        </item>
+    </channel>
+</rss>
