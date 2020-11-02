@@ -4,13 +4,16 @@
  * ref：https//v1.vuepress.vuejs.org/config/#index-styl
  */
 
+$font-sans = apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important
+$font-serif = "PT Serif"
+
 h1
 h2
 h3
 h4
 h5
 h6
-  font-family apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important
+  font-family $font-sans
 
 #header
   box-shadow none
@@ -30,7 +33,7 @@ h6
   .ui-post-summary
     color $textColor
     font-weight 300
-    font-family "PT Serif"
+    font-family $font-serif
 
   .ui-post-date
     color rgba($darkTextColor, 0.84)
@@ -41,6 +44,9 @@ h6
   font-size 3rem
   font-weight 800
 
+  @media (max-width $MQMobileNarrow)
+    font-size 2.4rem
+
 .post-meta
   margin-bottom 30px
 
@@ -50,7 +56,7 @@ h6
   .content__default
     p
     a
-      font-family "PT Serif"
+      font-family $font-serif
 
   @media (min-width $MQNarrow)
     box-shadow none !important
@@ -58,25 +64,43 @@ h6
 .header-wrapper
   .title
     text-transform none
-
-  .title a
-    font-family inherit
-    font-weight 800
+    a
+      font-family inherit
+      font-weight 800
 
   .header-right-wrap .nav .nav-item a
     font-family inherit
     font-weight 400
     font-size 16px
 
+#mobile-header .mobile-header-title .mobile-home-link
+  text-transform none
+  font-family $font-sans
+  font-weight 800
+  font-size 20px
+
+.mobile-nav-item
+  font-family $font-sans
+  font-weight 400
+
 .content-wrapper
   padding-top 120px
   min-height calc(100vh - 80px - 60px - 120px)
   max-width 680px
 
+  @media (max-width $MQMobileNarrow)
+    #base-list-layout
+      padding 1.5rem
+
+
 #vuepress-theme-blog__post-layout
   .vuepress-toc
     padding-top 13rem
     width 220px
+    max-height calc(100vh - 80px)
 
 .footer .footer-right-wrap .copyright .copyright-item a
   color $textColor !important
+
+#disqus_thread
+  margin-top 30px
