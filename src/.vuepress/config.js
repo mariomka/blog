@@ -95,6 +95,19 @@ module.exports = {
       {
         'ga': 'UA-181810260-1'
       }
+    ],
+    [
+      'autometa',
+      {
+        canonical_base: 'https://mjp.one',
+        site: {
+          name   : 'mjp.one',
+        },
+        author: {
+          name   : 'Mario Juárez',
+          twitter: 'mariomka',
+        },
+      }
     ]
   ],
 

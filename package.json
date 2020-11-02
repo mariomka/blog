@@ -17,6 +17,7 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.7.1",
     "@vuepress/theme-blog": "^2.3.3",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-autometa": "^0.1.13"
   }
 }
