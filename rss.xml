@@ -4,18 +4,18 @@
         <title>mjp.one</title>
         <link>https://mjp.one</link>
         <description>mariomka&apos;s blog</description>
-        <lastBuildDate>Mon, 02 Nov 2020 11:55:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Nov 2020 16:40:11 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://mjp.one/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Test post]]></title>
-            <link>https://mjp.one/2020/09/25/test-post/</link>
-            <guid>https://mjp.one/2020/09/25/test-post/</guid>
-            <pubDate>Fri, 25 Sep 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is a test post
+            <title><![CDATA[Comparando ClickHouse contra PostgreSQL para analíticas]]></title>
+            <link>https://mjp.one/2020/10/02/click-house/</link>
+            <guid>https://mjp.one/2020/10/02/click-house/</guid>
+            <pubDate>Fri, 02 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[ClickHouse es un DBMS de código abierto orientado a columnas, creado por Yandex para su servicio de analítica web (el segundo más grande después de Google Analytics).
 
-My content. ...]]></description>
+El objetivo de este post es in ...]]></description>
         </item>
     </channel>
 </rss>
