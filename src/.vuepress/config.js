@@ -67,10 +67,7 @@ module.exports = {
     },
 
     sitemap: {
-      hostname: 'https://mjp.one',
-      dateFormatter (time) {
-        return new Date(time).toLocaleDateString();
-      }
+      hostname: 'https://mjp.one'
     },
 
     feed: {
